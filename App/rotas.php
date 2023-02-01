@@ -15,19 +15,19 @@ switch ($url)
     case '/pessoa':
         // Para saber mais sobre o Operador de Resolução de Escopo (::), 
         // leia: https://www.php.net/manual/pt_BR/language.oop5.paamayim-nekudotayim.php
-        PessoaController::index();
+       echo "   PessoaController::index()";
         break;
 
     case '/pessoa/form':
-        PessoaController::form();
+        echo "  PessoaController::form()";
         break;
 
     case '/pessoa/form/save':
-        PessoaController::save();
+        echo "PessoaController::save()";
         break;
 
     case '/pessoa/delete':
-        PessoaController::delete();
+        echo "PessoaController::delete()echo ";
         break;
 
     default:
