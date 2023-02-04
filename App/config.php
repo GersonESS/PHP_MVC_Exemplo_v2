@@ -31,7 +31,7 @@ define('VIEWS', BASEDIR . '/View/modules/');
 $_ENV['db']['host'] = 'localhost:3306';
 $_ENV['db']['user'] = 'root';
 $_ENV['db']['pass'] = 'gabibi89';
-$_ENV['db']['database'] = 'cadastro';
+$_ENV['db']['database'] = 'db_mvc';
 
   
     
