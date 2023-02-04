@@ -28,7 +28,7 @@ define('VIEWS', BASEDIR . '/View/modules/');
  * 
  * Leia mais em: https://www.php.net/manual/pt_BR/reserved.variables.environment.php
  */
-$_ENV['db']['host'] = 'localhost:3306';
+$_ENV['db']['host'] = 'localhost';
 $_ENV['db']['user'] = 'root';
 $_ENV['db']['pass'] = 'gabibi89';
 $_ENV['db']['database'] = 'cadastro';
